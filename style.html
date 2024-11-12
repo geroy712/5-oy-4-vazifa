@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="title">Hello World</h1>
+    <p id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas facere modi earum est?</p>
+
+    <script>
+        // 1. Elementlarni id orqali olish
+        const titleElement = document.getElementById("title");
+        const contentElement = document.getElementById("content");
+
+        // 2. Elementlarni konsolga chiqarish
+        console.log(titleElement.textContent);
+        console.log(contentElement.textContent);
+
+        // 3. Elementlarni o'chirish
+        titleElement.remove();
+        contentElement.remove();
+    </script>
+</body>
+
+</html>
